@@ -1,5 +1,5 @@
 const test = require('tape')
-const contractMap = require('../')
+const { contractMap, bscContractMap, polygonContractMap} = require('../')
 const permittedFields = require('../permitted-fields.json')
 
 const util = require('ethereumjs-util')
